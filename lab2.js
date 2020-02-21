@@ -3,8 +3,8 @@
 // StAuth10065: I Freny Patel, 000744054 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
 var Bot = require("slackbots");
 
-var api_setting = {token:"xoxb-789310413060-791996080182-6STd12Bd4Li3lQPnfYssCyo0" , name:"yelphelp"}
-var yelp_api_key = "wa1eFevprO9W5-25IqLoEGo4Vu3_uGizQVwoJYrRCTlxI8rhid1IuaBqlVvPF7JTSQaEP8496AYADAjkcFKFt-f7yUn_5NkSmkNMvu0T5ecUaVVJWy_Oz1qR0DyeXXYx";
+var api_setting = {token:"" , name:"yelphelp"}
+var yelp_api_key = "";
 var yelpApi = require("yelp-api");
 var yelp = new yelpApi(yelp_api_key);
 
